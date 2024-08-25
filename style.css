@@ -119,7 +119,6 @@ textarea{
 footer{
 	text-align: center;
 	padding: 25px 0;
-	position: absolute;
 	width: 100%;
 	bottom: 0;
 }
@@ -129,6 +128,22 @@ footer{
 	color: var(--color-terciario);
 	display: none;
 	margin: 16px 0;
+}
+.redes-sociales ul{
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	list-style: none;
+	padding: 24px 0;
+	margin: 0;
+}
+.link-rrss{
+	font-size: 2rem;
+	color: var(--color-secundario);
+}
+footer p{
+	font-weight: bold;
+	color:var(--color-secundario);
 }
 @media (max-width:768px){
 	header{
