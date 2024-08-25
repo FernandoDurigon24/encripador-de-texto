@@ -67,14 +67,10 @@ function desenciptarTexto(cadena){
 function encrypt(){
 	let cadena = textoUsuario.value;
 	validarTexto(cadena, 'encriptar');
-	enciptarTexto(cadena);
-	
 }
 function desencrypt(){
 	let cadena = textoUsuario.value;
 	validarTexto(cadena);
-	desenciptarTexto(cadena);
-
 }
 
 
