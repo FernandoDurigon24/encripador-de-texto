@@ -164,7 +164,7 @@ footer{
 }
 
 
-@media (max-width:375px){
+@media (max-width:480px){
 	main,header{
 		width: 100%;
 	}
